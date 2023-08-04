@@ -1,0 +1,8 @@
+<h1 [innerHTML]="title"></h1>
+<input type="text"  #i/>
+<button (click)="fun(i.value)" >Send</button>
+
+<div>
+  <app-childcomp [parentdata]="user"></app-childcomp>
+
+</div>
